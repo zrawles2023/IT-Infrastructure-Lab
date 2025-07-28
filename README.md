@@ -67,7 +67,7 @@ This project simulates a real-world internal IT network infrastructure using Vir
 
 ---
 
-## 🛠️ Features & Tasks Completed
+## Features & Tasks Completed
 
 ### Week 1–2: VirtualBox & VM Setup
 - VirtualBox + Extension Pack installed
