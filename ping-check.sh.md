@@ -32,3 +32,8 @@ sudo /usr/local/bin/ping-check.sh
 
 #Log output
 cat /var/log/ping-check.log
+
+
+
+-----------------------------------------------------------------
+This script performs a basic reachability check for specified hosts using the ping command. It logs the results with timestamps to /var/log/ping-check.log and prints them to the terminal in real time. It's useful for quickly verifying network connectivity to critical systems in a small internal lab environment.
