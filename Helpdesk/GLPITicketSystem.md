@@ -63,3 +63,6 @@ Post-only      postonly	      postonly
 #Need to run on IT Server so GLPI Ticketing is active
 sudo systemctl status apache2
 sudo systemctl status mariadb
+
+-------------------------------------------------------------------------------------------------
+his setup installs and configures a full LAMP stack (Linux, Apache, MariaDB, PHP) and deploys the GLPI help desk system in a virtualized lab environment. It includes steps for package installation, database creation, permission settings, and Apache virtual host configuration to access GLPI using a custom domain. Once configured, GLPI is accessible via a web browser and supports multiple roles (Admin, Technician, User, Post-only) for managing IT support tickets.
