@@ -36,3 +36,5 @@ dig -x 192.168.50.3 +short
 
 Output:ns1.internal.lan
 
+------------------------------------------------------------------------------------------------------------------------
+This configuration sets up Reverse DNS (rDNS) using BIND9 on the IT server. A reverse zone file (db.192.168.50) is created to map IP addresses back to hostnames within the 192.168.50.0 network. The local BIND configuration is updated to include the reverse zone, and standard tools like named-checkconf, named-checkzone, and dig are used for syntax validation and testing.
