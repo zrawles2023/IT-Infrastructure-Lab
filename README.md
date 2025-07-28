@@ -25,7 +25,7 @@ This project simulates a real-world internal IT network infrastructure using Vir
 
 ---
 
-## ⚙️ Setup Instructions
+##  Setup Instructions
 
 ### Virtual Machine Setup
 1. **Install VirtualBox**
