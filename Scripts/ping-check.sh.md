@@ -6,7 +6,8 @@ sudo nano /usr/local/bin/ping-check.sh
 
 #!/bin/bash
 
-# Hosts to check — use IPs or hostnames defined in DNS
+#Check Hosts (namesdefined in DNS)
+
 HOSTS=("client-01.internal.lan" "client-02.internal.lan" "ns1.internal.lan")
 LOGFILE="/var/log/ping-check.log"
 TIMESTAMP=$(date '+%Y-%m-%d %H:%M:%S')
