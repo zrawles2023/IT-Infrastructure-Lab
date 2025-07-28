@@ -67,37 +67,6 @@ This project simulates a real-world internal IT network infrastructure using Vir
 
 ---
 
-## Features & Tasks Completed
-
-### Week 1–2: VirtualBox & VM Setup
-- VirtualBox + Extension Pack installed
-- Ubuntu Server + 2 Ubuntu Desktop VMs created
-- Host-only networking (vboxnet0) configured
-- Verified ping between clients and server
-
-### Week 3–4: DNS, DHCP, Samba
-- BIND9 installed and configured
-- DNS zone created for `internal.lan`
-- Clients configured using Netplan
-- Samba guest-share accessible from clients
-
-### Week 5–6: GLPI Help Desk
-- Apache, PHP 8.3, MariaDB stack configured
-- GLPI installed, configured, and tested
-- Sample ticket (“Printer Offline”) successfully created
-
-### Week 7–8: Scripting & Automation
-- Bash scripts implemented and tested
-- Hostname resolution verified via DNS
-- ICMP reachability confirmed for all nodes
-
-### Week 9–10: Documentation & Cleanup
-- All `.txt` files converted to `.md`
-- Main `README.md` created
-- Repository cleaned and finalized
-
----
-
  Detailed step-by-step guides are available in subdirectories:
 - Services
 - Helpdesk
