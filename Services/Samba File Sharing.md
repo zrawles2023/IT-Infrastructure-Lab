@@ -41,3 +41,8 @@ smb: \> ls
          hello.txt       N   25  SUN JUN 29 11:14:53 2025
 
                     12028924 blocks of sizw 1024. 6173908 blocks available
+
+-----------------------------------------------------------------------------------------------------------------
+This process installs and configures Samba on the IT Server to provide a shared folder accessible by client machines over the internal network. The shared directory /srv/shared is set up with guest access to simplify permissions. The Samba configuration is updated, and firewall rules are adjusted using UFW to allow Samba traffic.
+
+Client access is verified using smbclient, and file sharing is confirmed by creating and listing a test file from both the server and a client VM. This setup simulates a basic file-sharing service in a typical LAN environment, ideal for user collaboration and shared resource access.
