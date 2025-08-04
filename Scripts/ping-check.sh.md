@@ -32,3 +32,6 @@ sudo /usr/local/bin/ping-check.sh
 
 #Log output
 cat /var/log/ping-check.log
+
+---------------------------------------------------------------------------------
+Developed a Bash script on the IT server to automate network diagnostics by pinging key internal hosts defined in DNS. The script logs reachability status with timestamps to /var/log/ping-check.log, aiding in connectivity monitoring and troubleshooting.
